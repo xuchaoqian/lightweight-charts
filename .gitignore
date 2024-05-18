@@ -28,6 +28,8 @@ debug.html
 /website/.cache-loader
 /website/.previous-typings-cache/*.d.ts
 /website/versions.d.ts
+/demo/dist/
+/demo/node_modules/
 
 !/src/typings/**/*.d.ts
 

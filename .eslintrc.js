@@ -206,6 +206,14 @@ module.exports = {
 						'import/no-default-export': 'off',
 					},
 				},
+				{
+					files: ['demo/src/**/*.ts'],
+					parserOptions: {
+						project: 'demo/tsconfig.json',
+						sourceType: 'module',
+					},
+					rules: {},
+				},
 
 				// note this rule MUST be the last in this overrides list
 				// because it should be applied last and override parserOptions correctly

@@ -54,6 +54,8 @@
     "fancy-canvas": "2.1.0"
   },
   "devDependencies": {
+    "@memlab/api": "~1.0.29",
+    "@memlab/core": "~1.1.30",
     "@rollup/plugin-node-resolve": "~15.0.2",
     "@rollup/plugin-replace": "~5.0.2",
     "@rollup/plugin-terser": "~0.4.3",

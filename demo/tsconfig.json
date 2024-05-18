@@ -1,7 +1,5 @@
 {
 	"extends": "./tsconfig.options.json",
-	"compilerOptions": {
-		"noEmit": true
-	},
+	"compilerOptions": {},
 	"include": ["src/**/*.ts", "tests/**/*.ts"]
 }
